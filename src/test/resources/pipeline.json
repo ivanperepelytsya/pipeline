@@ -1,0 +1,17 @@
+{
+  "steps": [
+    {
+      "processor": "AddField",
+      "configuration" : {
+        "fieldName": "firstName",
+        "fieldValue": "George"
+      }
+    },
+    {
+      "processor": "CountNumberOfFields",
+      "configuration" : {
+        "countFieldName": "numOfFields"
+      }
+    }
+  ]
+}
